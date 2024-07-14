@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Ali",
+    "transactions": [
+      { "id": 1, "amount": 100.0, "date": "2023-06-01" },
+      { "id": 2, "amount": 50.0, "date": "2023-06-02" },
+      { "id": 3, "amount": 75.0, "date": "2023-06-03" },
+      { "id": 4, "amount": 125.0, "date": "2023-06-04" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aya Elsayed",
+    "transactions": [
+      { "id": 1, "amount": 75.0, "date": "2023-06-01" },
+      { "id": 2, "amount": 150.0, "date": "2023-06-03" },
+      { "id": 3, "amount": 200.0, "date": "2023-06-05" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mina Adel",
+    "transactions": [
+      { "id": 1, "amount": 1000, "date": "2023-06-02" },
+      { "id": 2, "amount": 2000, "date": "2023-06-04" },
+      { "id": 3, "amount": 550, "date": "2023-06-06" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sarah Reda",
+    "transactions": [
+      { "id": 1, "amount": 500, "date": "2023-06-02" },
+      { "id": 2, "amount": 1300, "date": "2023-06-04" },
+      { "id": 3, "amount": 750, "date": "2023-06-06" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mohamed Sayed",
+    "transactions": [
+      { "id": 1, "amount": 1250, "date": "2023-06-02" },
+      { "id": 2, "amount": 2500, "date": "2023-06-04" },
+      { "id": 3, "amount": 875, "date": "2023-06-06" }
+    ]
+  }
+]

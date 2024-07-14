@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <span class="loader"></span>
+    </div>
+    <section class="container">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center p-5"
+      >
+        <h1 id="Header" class="mb-5">Welcome</h1>
+
+        <button
+          id="mainBTN"
+          onclick="getCustomerData()"
+          class="btn btn-primary mb-3"
+        >
+          View Table
+        </button>
+        <div
+          class="row justify-content-between search-container input-group mb-3"
+        ></div>
+      </div>
+      <div class="table-container">
+        <div class="w-100 text-center mb-3 caption d-none fs-4">
+          Click On ID to Get The Full Transactions Graph !
+        </div>
+        <table id="myTable" class="text-center table table-striped table-dark">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Total Transaction</th>
+              <th scope="col">Total Amount</th>
+            </tr>
+          </thead>
+          <tbody id="tableContainer">
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div
+      class="container w-75 m-auto d-flex align-items-center justify-content-center"
+    >
+      <div class="chart mb-5">
+        <canvas id="myChart" width="600" height="400"></canvas>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+      integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
